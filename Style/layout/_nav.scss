@@ -1,0 +1,14 @@
+.nav {
+    @include flex-C;
+    height: 50px;
+    border-bottom: 2px solid black;
+    background-color: $nav;
+    
+    &__ul {
+        display: flex;
+    }
+
+    &__li {
+        @include margin-left-right-large;
+    }
+}

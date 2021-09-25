@@ -1,0 +1,17 @@
+.header {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    height: 150px;
+    background-color: $header;
+    @include flex-C;
+
+    &__logo {
+        & img {
+            height: 100px;
+        }
+    }
+
+    &__title {
+        @include margin-left-right-large;
+    }
+}
